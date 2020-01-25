@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Tecnológo em Gestão de Tecnologia da Informação",
+        "description": "Centro Universitário Senac",
+        "content": [
+            "Dentre os conteúdos abordados pude aprender sobre gestão e liderança em especial ITIL e Cobit."
+        ]
+    },
+    {
+        "title": "Bootcamp Data Science",
+        "description": "WomakersCode",
+        "content": [
+            "Conteúdo abordado:",
+        "Análise de Dados em Python utilizando Python com bibliotecas como Pandas, Numpy, Seaborn, Matplotlib, Sklearn",
+        "Modelos Regressivos abordando Regressão Linear Simples, Coeficientes, Regressão Linear Múltipla, bibliotecas como MAE(Mean Absolute Error), MSE(Mean Squared Error)"
+        
+        
+        ]
+    },
+    {
+        "title": "Formação FullStack",
+        "description": "Reprograma",
+        "content": [
+            "Conteúdo abordado:"
+        
+        ]
+
+    },
+    {
+        "title": "AceleraDev Python para Web",
+        "description": "Codenation",
+        "content": [
+            "Conteúdo abordado:"
+        
+    ]
+    },
+    {
+        "title": "Gama Experience",
+        "description": "Gama Academy",
+        "content": [
+            "Conteúdo abordado:"
+        
+    ]
+},
+{
+    "title": "Digital Squad",
+    "description": "Gama Academy",
+    "content": [
+        "Conteúdo abordado:"
+    
+]
+},
+{
+    "title": "Bacharelado em Secretariado Executivo Trilíngue",
+    "description": "Faculdade Metropolitana Unidas",
+    "content": [
+        "Conteúdo abordado:"
+    
+]
+}
+]    
