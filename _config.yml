@@ -1,0 +1,20 @@
+# config
+name: portifolio
+url: "camilamlima.github.io"
+baseurl: "" 
+
+# Profile information
+author: "Camila Lima"
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README*
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  style: compressed
