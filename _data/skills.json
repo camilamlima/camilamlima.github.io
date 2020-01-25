@@ -1,0 +1,46 @@
+[
+    {
+        "title": "HTML",
+        "level": 88,
+        "color": "color-1"
+        
+    },
+    {
+        "title": "CSS",
+        "level": 85,
+        "color": "color-2"
+    },
+    {
+        "title": "Bootstrap",
+        "level": 96
+    },
+
+    {
+        "title": "JQuery",
+        "level": 80
+    },
+    {
+        "title": "React",
+        "level": 90
+    },
+    {
+        "title": "Angular",
+        "level": 85
+    },
+    {
+        "title": "AngularJs",
+        "level": 80
+    },
+    {
+        "title": "AngularJs",
+        "level": 80
+    },
+
+
+    {
+        "title": "xx",
+        "level": 96
+    }
+
+
+]
