@@ -1,32 +1,29 @@
 [
     {
-    "title": "Cursos e Atividades Extras",
-    "description": "Ka Solution",
-    "content": [
-        "Curso Java Básico – Julho 2019",
-        "Curso Angular 7 – Julho 2019"]
+        "description": "Ka Solution",
+        "content": [
+            "Curso Java Básico – Julho 2019",
+            "Curso Angular 7 – Julho 2019"
+        ]
     },
-    {    
+    {
         "description": "CertiProf",
         "content": [
-         "Scrum Foundation Professional Certificate (SFPC) - Janeiro 2019"
-            ]
+            "Scrum Foundation Professional Certificate (SFPC) - Janeiro 2019"
+        ]
     },
-    {    
-    "description": "IFSP",
-    "content": [
+    {
+        "description": "IFSP",
+        "content": [
             "Curso Introdução à Programação para WEB - Junho 2018",
             "Curso Programação de Computadores e Dispositivos Móveis - Junho 2018"
         ]
     },
-    
-    {    
+    {
         "description": "Caelum",
         "content": [
             "Curso React Native - Abril 2018",
             "Curso React e Redux - Abril 2018"
-            ]
+        ]
     }
-
-
 ]

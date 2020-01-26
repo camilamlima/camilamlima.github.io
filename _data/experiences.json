@@ -1,9 +1,30 @@
 [
     {
-        "title": "Desenvolvedor de Software Pleno",
-        "place_url": "https://luizalabs.com",
-        "place": "LuizaLabs - Magazine Luiza",
-        "year": "nov de 2019 - Presente",
-        "description": ""
+        "title": "Analista de Desenvolvimento Júnior",
+        "place_url": "https://www.accenture.com",
+        "place": "Accenture",
+        "year": "julho de 2019 - Presente",
+        "description": "Criação de interfaces em landing page tanto para web e mobile, preservando o design responsivo nas diferentes interfaces. Elaboração de telas de front-end patronizadas em protótipos por Adobexd, Photoshop, Marvel ou Figma mantendo sempre a usabilidade do layout utilizando HTML, Css, Bootstrap, Javascript sendo implementadas utilizando frameworks como Angularjs, Angular 7 ou biblioteca como React. Conhecimento em pré-processadores Sass, Less. Manutenção e sustentação das páginas tanto front-end e implementando com back-end usando NodeJs, MongoDB e Python fazendo requisições de Http na API, buscando melhorar a funcionalidade e acessibilidade das páginas. Realizar a análise de dados dos produtos e clientes para entender e melhorar desde a criação até a conclusão desde, realizando testes e validação para a entrega do projeto com qualidade."
+    },
+    {
+        "title": "Secretária Executiva",
+        "place_url": "https://www.angelicoadvogados.com.br",
+        "place": "Angélico Advogados",
+        "year": "fevereiro de 2011 - junho de 2019",
+        "description": "Secretária executiva com sólida experiência nos setores administrativo e financeiro com compras, relatórios, pagamento de contas, atendimento a clientes, suporte aos outros setores. Comunicação interna e externa, além de ligações nacionais e internacionais e conference call. Elaboração de documentos e e-mails gerenciais, planilhas, envio de fax e correspondências. Responsável pela compra de passagens e reserva de hotel. Controle e ajuste da agenda de reunião e participação quando necessário. Desenvolvimento e liderança com eventos/ coffee break e coordenação das equipes de office-boy e faxineiras. Obtive êxito na mudança de prestação de serviços de motoboys, com grande redução de custos e melhor qualidade de serviço. Com formação em Secretariado Executivo Trilingue pela FMU e com registro no SRTE."
+    },
+    {
+        "title": "Analista Web I - Voluntária",
+        "place_url": "https://www.todxs.org",
+        "place": "Todxs",
+        "year": "julho de 2018 - março de 2019",
+        "description": "Elaboração de landing page, preservando o design responsivo elaborada em protótipo do Adobexd e E-mail Marketing referente aos Eventos realizados pela Todxs."
+    },
+    {
+        "title": "Analista - Voluntária",
+        "place_url": "https://www.facebook.com/casabrendalee/",
+        "place": "ONG Brenda Lee",
+        "year": "julho de 2018 - agosto de 2018",
+        "description": "Divulgação e elaboração do Site e Redes Sociais da ONG."
     }
 ]

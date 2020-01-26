@@ -3,7 +3,6 @@
         "title": "HTML",
         "level": 88,
         "color": "color-1"
-        
     },
     {
         "title": "CSS",
@@ -12,35 +11,42 @@
     },
     {
         "title": "Bootstrap",
-        "level": 96
+        "level": 96,
+        "color": "color-3"
     },
-
     {
         "title": "JQuery",
-        "level": 80
+        "level": 80,
+        "color": "color-4"
     },
     {
         "title": "React",
-        "level": 90
+        "level": 90,
+        "color": "color-5"
     },
     {
         "title": "Angular",
-        "level": 85
+        "level": 85,
+        "color": "color-6"
     },
     {
         "title": "AngularJs",
-        "level": 80
+        "level": 75,
+        "color": "color-1"
     },
     {
-        "title": "AngularJs",
-        "level": 80
+        "title": "NodeJS",
+        "level": 50,
+        "color": "color-2"
     },
-
-
     {
-        "title": "xx",
-        "level": 96
+        "title": "Python",
+        "level": 65,
+        "color": "color-3"
+    },
+    {
+        "title": "Java",
+        "level": 35,
+        "color": "color-4"
     }
-
-
 ]
