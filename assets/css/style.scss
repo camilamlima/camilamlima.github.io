@@ -9,7 +9,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #2c98f0 !default;
+$brand-primary:#cca0ab !default;
 $brand-footer: #2C2C2C !default;
 
 $brand-color-1: #2c98f0 !default;
@@ -23,7 +23,7 @@ $brand-color-6: #4054b2 !default;
 $brand-white: #fff;
 $brand-black: #000;
 $brand-darker: #444;
-$brand-gray: #f2f3f7;
+$brand-gray: #FAF0E6;
 $brand-lighter: #e9e9e9;
 $brand-body-color: #e8e8e8;
 $brand-selection-color: #f9f6f0;
@@ -185,12 +185,12 @@ figure {
 }
 #colorlib-aside {
 	padding-top: 3em;
-	padding-bottom: 40px;
+	// padding-bottom: 40px;
 	float: left;
 
 	width: 300px;
 	position: fixed;
-	overflow-y: scroll;
+	overflow-y: auto;
 	z-index: 1001;
 	background: $brand-gray;
 	@include transition(.5s);
@@ -530,6 +530,7 @@ body {
 	clear: both;
 	width: 100%;
 	display: block;
+	padding: 20px 0;
 	@media screen and(max-width: $screen-sm){
 		padding-top: 5em;
 		padding-bottom: 8em;
@@ -848,7 +849,6 @@ margin-left: -20px;
 
 //SERVICES
 .services{
-	margin-bottom: 80px;
 	position: relative;
 	z-index: 0;
 	@media screen and(max-width: $screen-sm){
