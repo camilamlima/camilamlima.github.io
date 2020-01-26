@@ -1,22 +1,25 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfólio Camila Lima</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="Camila Lima" />
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="shortcut icon" href="favicon.ico">
-        {% include stylesheet.html %}
-	</head>
-	<body>
-        <div id="colorlib-page">
-            <div class="container-wrap">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfólio Camila Lima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Camila Lima" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+    {% include stylesheet.html %}
+</head>
+
+<body>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar"><i></i></a>
             <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
                 {% include aside.html %}
             </aside>
@@ -29,18 +32,27 @@
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc">
-                                            <span class="heading-meta">Sobre</span>
+
                                             <h2 class="colorlib-heading">Quem sou eu</h2>
-                                            <p>Sou <strong>Camila Lima</strong> sou formada em Gestão de Tecnologia da Informação pelo Senac, 
-                                                com os conhecimentos adquiridos através de diversos cursos me especializei em front-end 
-                                                onde atualmente sou desenvolvedora front-end. 
-                                                <p>Dentre minhas habilidades estão a criação de interfaces em landing page, através de 
-                                                telas patronizadas em protótipos por Adobexd, Photoshop, Marvel ou Figma mantendo sempre a usabilidade 
-                                                do layout original buscando melhorar a funcionalidade e acessibilidade das páginas, 
-                                                realizando testes e validação para a entrega do projeto com qualidade e 
-                                                procurando sempre ampliar os conhecimentos aprendendo frameworks e bibliotecas de front-end.</p>
-                                                <p>Amante de tecnologias e novos desafios, tive a oportunidade de participar do Bootcamp de Data Science 
-                                                e assim conhecer uma nova área cujo me identifiquei bastante e venho aprofundando também meus conhecimentos.</p>
+                                            <p>Sou <strong>Camila Lima</strong> sou formada em Gestão de Tecnologia da
+                                                Informação pelo Senac,
+                                                com os conhecimentos adquiridos através de diversos cursos me
+                                                especializei em front-end
+                                                onde atualmente sou desenvolvedora front-end.
+                                                <p>Dentre minhas habilidades estão a criação de interfaces em landing
+                                                    page, através de
+                                                    telas patronizadas em protótipos por Adobexd, Photoshop, Marvel ou
+                                                    Figma mantendo sempre a usabilidade
+                                                    do layout original buscando melhorar a funcionalidade e
+                                                    acessibilidade das páginas,
+                                                    realizando testes e validação para a entrega do projeto com
+                                                    qualidade e
+                                                    procurando sempre ampliar os conhecimentos aprendendo frameworks e
+                                                    bibliotecas de front-end.</p>
+                                                <p>Amante de tecnologias e novos desafios, tive a oportunidade de
+                                                    participar do Bootcamp de Data Science
+                                                    e assim conhecer uma nova área cujo me identifiquei bastante e venho
+                                                    aprofundando também meus conhecimentos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -70,108 +82,55 @@
                 </section>
 
                 <section class="colorlib-skills" data-section="skills">
-                        <div class="colorlib-narrow-content">
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <span class="heading-meta">Minhas especialidades</span>
-                                    <h2 class="colorlib-heading animate-box">Minhas Skills</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                {% for exp in site.data.skills %}
-                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="progress-wrap">
-                                            <h3>{{ exp.title }}</h3>
-                                            <div class="progress">
-                                                <div class="progress-bar {{ exp.color }}" role="progressbar" aria-valuenow="{{ exp.level }}"
-                                                aria-valuemin="0" aria-valuemax="100" style="width:{{ exp.level }}%">
-                                                <span>{{ exp.level }}%</span>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                                
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading animate-box">Minhas Skills</h2>
                             </div>
                         </div>
+                        <div class="row">
+                            {% for exp in site.data.skills %}
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3>{{ exp.title }}</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar {{ exp.color }}" role="progressbar"
+                                            aria-valuenow="{{ exp.level }}" aria-valuemin="0" aria-valuemax="100"
+                                            style="width:{{ exp.level }}%">
+                                            <span>{{ exp.level }}%</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
                 </section>
-                
+
                 <section class="colorlib-services" data-section="frontend">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">What I do?</span>
-                                <h2 class="colorlib-heading">Here are some of my expertise</h2>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading animate-box">Projetos Front-End</h2>
                             </div>
                         </div>
-                        <div class="row row-pt-md">
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-1">
-                                    <span class="icon">
-                                        <i class="icon-bulb"></i>
-                                    </span>
+                        <div class="row">
+                            {% for exp in site.data.frontend %}
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="project" style="background-image: url({{ exp.img }});">
                                     <div class="desc">
-                                        <h3>Innovative Ideas</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                        <div class="con">
+                                            <h3><a href="">{{ exp.title }}</a></h3>
+                                            <span>{{ exp.description }}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-2">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-3">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-4">
-                                    <span class="icon">
-                                        <i class="icon-layers2"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Graphic Design</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-5">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-6">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </section>
@@ -179,137 +138,111 @@
                 <section class="colorlib-services" data-section="science">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">What I do?</span>
-                                <h2 class="colorlib-heading">Here are some of my expertise</h2>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading animate-box">Projetos Data-Science</h2>
                             </div>
                         </div>
-                        <div class="row row-pt-md">
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-1">
-                                    <span class="icon">
-                                        <i class="icon-bulb"></i>
-                                    </span>
+                        <div class="row">
+                            {% for exp in site.data.science %}
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="project" style="background-image: url({{ exp.img }});">
                                     <div class="desc">
-                                        <h3>Innovative Ideas</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                        <div class="con">
+                                            <h3><a href="">{{ exp.title }}</a></h3>
+                                            <span>{{ exp.description }}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-2">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-3">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-4">
-                                    <span class="icon">
-                                        <i class="icon-layers2"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Graphic Design</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-5">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center animate-box">
-                                <div class="services color-6">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </section>
-                
+
                 <section class="colorlib-education" data-section="education">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Formação</span>
-                                <h2 class="colorlib-heading animate-box">Formação</h2>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading animate-box">Formação Acadêmica</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="fancy-collapse-panel">
                                     <div class="panel-group" id="accordion" role="tablist">
-                                        
+
                                         {% for exp in site.data.education %}
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
-                                                    <h4 class="panel-title">
-                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-controls="collapse{{forloop.index}}">
-                                                            {{ exp.title }}
-                                                        </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-                                                    <div class="panel-body">
-                                                        <p>{{ exp.description }}</p>
-                                                        <ul>
-                                                            {%  for c in exp.content %}
-                                                                <li >{{ c }} </li>
-                                                            {% endfor %}
-                                                        </ul>
-                                                    </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading{{forloop.index}}">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                        href="#collapse{{forloop.index}}"
+                                                        aria-controls="collapse{{forloop.index}}">
+                                                        {{ exp.title }}
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse{{forloop.index}}" class="panel-collapse collapse"
+                                                role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+                                                <div class="panel-body">
+                                                    <p>{{ exp.description }}</p>
+                                                    <ul>
+                                                        {%  for c in exp.content %}
+                                                        <li>{{ c }} </li>
+                                                        {% endfor %}
+                                                    </ul>
                                                 </div>
                                             </div>
+                                        </div>
                                         {% endfor %}
-                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading99">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                        href="#collapse99" aria-controls="collapse99">
+                                                        Cursos e Atividades Extras
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse99" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="heading99">
+                                                <div class="panel-body">
+                                                    {% for exp in site.data.cursos %}
+                                                    <p>{{ exp.description }}</p>
+                                                    <ul>
+                                                        {%  for c in exp.content %}
+                                                        <li>{{ c }} </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                    <br>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </section>
 
                 <section class="colorlib-experience" data-section="experience">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Experiencias</span>
-                                <h2 class="colorlib-heading animate-box">Experiencias profissionais</h2>
+                            <div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading animate-box">Experiências profissionais</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                            <div class="timeline-centered">
-                                
-                                {% for exp in site.data.experiences %}
+                                <div class="timeline-centered">
+
+                                    {% for exp in site.data.experiences %}
                                     <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                         <div class="timeline-entry-inner">
                                             <div class="timeline-icon color-1">
@@ -317,49 +250,54 @@
                                             </div>
                                             <div class="timeline-label">
                                                 <h2>
-                                                    <a href="{{ exp.place_url }}">{{ exp.title }} na {{ exp.place }}</a> 
+                                                    <a href="{{ exp.place_url }}">{{ exp.title }} na {{ exp.place }}</a>
                                                     <span>{{ exp.year }}</span>
                                                 </h2>
                                                 <p>{{ exp.description }}</p>
                                             </div>
                                         </div>
                                     </article>
-                                {% endfor %}
+                                    {% endfor %}
 
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </section>
 
                 <section class="colorlib-blog" data-section="blog">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Read</span>
-                                <h2 class="colorlib-heading">Recent Blog</h2>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
+                                <h2 class="colorlib-heading">Artigos</h2>
                             </div>
                         </div>
                         <div class="row">
                             {% for exp in site.data.blog %}
-                                <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="blog-entry">
-                                        <a href="blog.html" class="blog-img">
-                                            <img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com">
-                                        </a>
-                                        <div class="desc">
-                                            <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                                            <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                        </div>
+                            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="blog-entry">
+                                    <a href="blog.html" class="blog-img">
+                                        <img src="images/blog-1.jpg" class="img-responsive"
+                                            alt="HTML5 Bootstrap Template by colorlib.com">
+                                    </a>
+                                    <div class="desc">
+                                        <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
+                                                    class="icon-bubble3"></i> 4</small></span>
+                                        <h3><a href="blog.html">Renovating National Gallery</a></h3>
+                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                                            large language ocean.</p>
                                     </div>
                                 </div>
+                            </div>
                             {% endfor %}
-                            
+
                         </div>
                         <div class="row">
                             <div class="col-md-12 animate-box">
-                                <p><a href="https://medium.com/@camilam.oliveiralima" class="btn btn-primary btn-lg btn-load-more">Mais artigos <i class="icon-reload"></i></a></p>
+                                <p><a href="https://medium.com/@camilam.oliveiralima"
+                                        class="btn btn-primary btn-lg btn-load-more">Mais artigos <i
+                                            class="icon-reload"></i></a></p>
                             </div>
                         </div>
                     </div>
@@ -368,14 +306,15 @@
                 <section class="colorlib-contact" data-section="contact">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Get in Touch</span>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                                data-animate-effect="fadeInLeft">
                                 <h2 class="colorlib-heading">Contato</h2>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-5">
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                            <div class="col-md-4">
+                                <div class="colorlib-feature colorlib-feature-sm animate-box"
+                                    data-animate-effect="fadeInLeft">
                                     <div class="colorlib-icon">
                                         <i class="icon-globe-outline"></i>
                                     </div>
@@ -383,8 +322,10 @@
                                         <p><a href="#">info@domain.com</a></p>
                                     </div>
                                 </div>
-
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="colorlib-feature colorlib-feature-sm animate-box"
+                                    data-animate-effect="fadeInLeft">
                                     <div class="colorlib-icon">
                                         <i class="icon-map"></i>
                                     </div>
@@ -392,8 +333,11 @@
                                         <p>São Paulo - Brasil</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-md-4">
 
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                <div class="colorlib-feature colorlib-feature-sm animate-box"
+                                    data-animate-effect="fadeInLeft">
                                     <div class="colorlib-icon">
                                         <i class="icon-phone"></i>
                                     </div>
@@ -402,16 +346,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-7 col-md-push-1">
-                            </div>
+
                         </div>
                     </div>
                 </section>
 
             </div><!-- end:colorlib-main -->
         </div><!-- end:container-wrap -->
-        </div><!-- end:colorlib-page -->
+    </div><!-- end:colorlib-page -->
 
-        {% include scripts.html %}
-	</body>
+    {% include scripts.html %}
+</body>
+
 </html>
