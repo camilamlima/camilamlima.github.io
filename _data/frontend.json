@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Projeto Amparo",
+        "description": "Layout elaborado com Html, Css, Bootstrap e Javascript",
+        "img": "assets/images/projeto_amparo.png",
+        "link": ""
+    },
+    {
+        "title": "Projeto TecBlog",
+        "description": "Layout elaborado com Html e Css",
+        "img": "assets/images/projeto_tecblog.png",
+        "link": "https://github.com/camilamlima/projetos-portfolio/tree/master/projeto_tecblog"
+    },
+    {
+        "title": "Projeto Pokemon",
+        "description": "Layout elaborado com Html, Css, Bootstrap, Javascript e React",
+        "img": "assets/images/projeto_pokemon.png",
+        "link": "https://github.com/camilamlima/vaga-frontend-teste/tree/camila_lima"
+    },
+    {
+        "title": "Projeto Helpec",
+        "description": "Layout elaborado com Html, Css, Bootstrap, Javascript e React",
+        "img": "assets/images/projeto_helpec.png",
+        "link": "https://helpec.netlify.com/"
+    },
+    {
+        "title": "Projeto Spotify",
+        "description": "Layout elaborado com Html, Css, Bootstrap, Javascript e React",
+        "img": "assets/images/projeto_spotify.png",
+        "link": "https://github.com/camilamlima/spotify-app"
+    },
+    {
+        "title": "Projeto Dashboard",
+        "description": "Layout elaborado com Html, Css, Bootstrap, Javascript e Angular 7",
+        "img": "assets/images/projeto_dashboard.png"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Estudo de dados do Titanic",
+        "description": "Estudos de Modelo de Classificação com os dados do naufrágio do Titanic",
+        "link": "https://colab.research.google.com/drive/1oluht4feKXppxkeHx6teTJao1tLoo0Ac#scrollTo=1P5IpCFCgmvc"
+    },
+    {
+        "title": "Estudo Análise de Dados com Python",
+        "description": "Estudo Análise de Dados com Python utilizando Pandas",
+        "link": "https://colab.research.google.com/drive/1-r3GvflY49HyYoUFqnJTKq66XY0qj3J3#scrollTo=opbvuHLr0-U7"
+    },
+    {
+        "title": "Projeto Final Bootcamp Data Science",
+        "description": "Projeto final elaborado em Python e Apache Airflow, utilizando MySQL como banco de dados",
+        "link": "https://github.com/camilamlima/graces_desafio"
+    }
+]
