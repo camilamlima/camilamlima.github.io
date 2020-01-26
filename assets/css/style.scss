@@ -1,3 +1,6 @@
+---
+---
+
 $font-primary: 'Quicksand', Arial, sans-serif;
 $font-secondary: 'Playfair Display', Georgia, serif;
 
@@ -325,7 +328,7 @@ figure {
 				display: inline;
 				list-style: none;
 				a {
-					color: rgba(255,255,255,.3);
+					color: rgba(0,0,0,.5);
 					padding: 4px;
 					&:hover, &:active, &:focus {
 						text-decoration: none;
@@ -524,8 +527,6 @@ body {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact{
-	padding-top: 4em;
-	padding-bottom: 9em;
 	clear: both;
 	width: 100%;
 	display: block;
