@@ -10,52 +10,77 @@
         "title": "Bootcamp Data Science",
         "description": "WomakersCode",
         "content": [
-            "Conteúdo abordado:",
-        "Análise de Dados em Python utilizando Python com bibliotecas como Pandas, Numpy, Seaborn, Matplotlib, Sklearn",
-        "Modelos Regressivos abordando Regressão Linear Simples, Coeficientes, Regressão Linear Múltipla, bibliotecas como MAE(Mean Absolute Error), MSE(Mean Squared Error)"
-        
-        
+            "Curso intensivo de 100 horas com o seguinte conteúdo abordado:",
+            "Análise de Dados em Python",
+            "Modelos Regressivos",
+            "Modelos de Classificação",
+            "Clustering",
+            "Banco de Dados Relacionais (SQL)",
+            "Banco de Dados Não Relacionais (NoSQL)",
+            "Algoritmos de Machine Learning e Aplicações de Larga Escala",
+            "Deep Learning",
+            "NLP",
+            "Data Visualization: Data Storytelling",
+            "Data Engineering (SQL, NoSQL, Spark)",
+            "Power BI"
         ]
     },
     {
         "title": "Formação FullStack",
         "description": "Reprograma",
         "content": [
-            "Conteúdo abordado:"
-        
+            "Curso intensivo de 224 horas com o seguinte conteúdo abordado:",
+            "Conhecimento básico User Experience",
+            "HTML, CSS e Bootstrap ",
+            "Javascript",
+            "React",
+            "Redux",
+            "NodeJs",
+            "MongoDB",
+            "Integração com API"
         ]
-
     },
     {
         "title": "AceleraDev Python para Web",
         "description": "Codenation",
         "content": [
-            "Conteúdo abordado:"
-        
-    ]
+            "Curso de 7 semanas com o seguinte conteúdo abordado:",
+            "Python",
+            "API's",
+            "Django",
+            "Banco de dados",
+            "Testes Unitários"
+        ]
     },
     {
         "title": "Gama Experience",
         "description": "Gama Academy",
         "content": [
-            "Conteúdo abordado:"
-        
-    ]
-},
-{
-    "title": "Digital Squad",
-    "description": "Gama Academy",
-    "content": [
-        "Conteúdo abordado:"
-    
+            "Curso intensivo de 120 horas com o seguinte conteúdo abordado:",
+            "JavaScript: Programando na linguagem da web",
+            "Webpack: Manipulando módulos na sua webapp",
+            "JavaScript avançado I: ES6, orientação a objetos e padrões de projetos",
+            "JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos",
+            "Flexbox: Posicione elementos na tela",
+            "Angular parte 1: Fundamentos",
+            "Angular parte 2: Autenticação, Forms e lazy loading",
+            "Angular parte 3: upload, build e novos componentes"
+        ]
+    },
+    {
+        "title": "Digital Squad",
+        "description": "Gama Academy",
+        "content": [
+            "Curso intensivo de 64 horas com o seguinte conteúdo abordado:",
+            "React e Redux",
+            "React Native"
+        ]
+    },
+    {
+        "title": "Bacharelado em Secretariado Executivo Trilíngue",
+        "description": "Faculdade Metropolitana Unidas",
+        "content": [
+            "Dentre os conteúdos abordados pude aprender sobre gestão, administração, liderança e idiomas inglês, espanhol e português."
+        ]
+    }
 ]
-},
-{
-    "title": "Bacharelado em Secretariado Executivo Trilíngue",
-    "description": "Faculdade Metropolitana Unidas",
-    "content": [
-        "Conteúdo abordado:"
-    
-]
-}
-]    
